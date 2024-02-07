@@ -6,7 +6,6 @@ body {
   width: 800px;
   background-color: #dcc9f4;
   margin: 20px 20px;
-  text-align: center;
 }
 .top-child {
   display: inline-block;
@@ -17,7 +16,6 @@ body {
   width: 800px;
   height: 800px;  
   text-align: center;
-  margin: 0px 20px 20px 20px;
   margin-left: auto;
   margin-right: auto;
   background-color: #ffd9df;
@@ -51,7 +49,6 @@ body {
   width: 800px;
   height: 300px;
   text-align: center;
-  margin: 20px;
   margin-left: auto;
   margin-right: auto;
   background-color: #87ceeb;
