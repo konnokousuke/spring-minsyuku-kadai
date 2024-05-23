@@ -28,7 +28,7 @@ public class AdminUserController {
 		Page<User> userPage;
 		
 		if (keyword != null && !keyword.isEmpty()) {
-			userPage = userRepository.findByNameLikeOrFuriganaLike("%", "%" + keyword + "%", pageable);
+			userPage = userRepository.findByNameLikeOrFuriganaLike("%" + keyword + "%", "%" + keyword + "%", pageable);
 		} else {
 			userPage = userRepository.findAll(pageable);
 		}
